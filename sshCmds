@@ -1,0 +1,3 @@
+sudo ss --kill state close-wait src :2222
+autossh -p 2222 localhost -l pi
+
